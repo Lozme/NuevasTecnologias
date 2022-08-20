@@ -7,4 +7,8 @@
 2- Clonar el proyecto y utilizar su rama mediante git checkout nombre.apellido\
 3- Crear Vistas y Rutas Correspondientes\
 4- Añadir archivos y realizar commit\
-5- Subir los archivos: git push origin nombre.apellido
+5- Subir los archivos: git push origin nombre.apellido\
+
+## REGLA DE ORO
+
+No subir los cambios a la rama Main!, siempre hacer push de la siguiente manera git push origin nombre.apellido!!!!
