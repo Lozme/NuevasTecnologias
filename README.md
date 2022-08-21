@@ -9,6 +9,7 @@
 4- Añadir archivos y realizar commit\
 5- Subir los archivos: git push origin nombre.apellido\
 
-## REGLA DE ORO
+## REGLAS DE ORO
 
-No subir los cambios a la rama Main!, siempre hacer push de la siguiente manera git push origin nombre.apellido!!!!
+- No subir los cambios a la rama Main!, siempre hacer push de la siguiente manera git push origin nombre.apellido!!!!\
+- Para crear la rama deben pedir acceso, escribanme al interno con su correo o nombre de usuario de github para que no les presente problema
