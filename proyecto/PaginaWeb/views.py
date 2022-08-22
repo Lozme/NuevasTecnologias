@@ -230,7 +230,7 @@ def noticias(response):
 <body style="background-color: #E04646;">
     <div class="jumbotron jumboton-fluid text-center" id="jumbo">
         <br><br><br><br><br><br>
-        <a href="PaginaPrincipal"><h1>Logo/nombre</h1></a>
+        <a href="inicio"><h1>Logo/nombre</h1></a>
         <br><br><br>
         <strong><h4 id="frase">"La esperanza es lo que nos hace fuertes. Es la razón del por qué estamos aquí. Es por lo que peleamos cuando todo lo demás está perdido"</h4></strong>
         <i><h5>-Pandora ('God of war 3')</h5></i>
@@ -238,14 +238,14 @@ def noticias(response):
       </div>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="PaginaPrincipal"> <i class="bi bi-controller" id="logto"></i> </a>
+            <a class="navbar-brand" href="inicio"> <i class="bi bi-controller" id="logto"></i> </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link "  href="PaginaPrincipal">Inicio</a>
+                <a class="nav-link "  href="inicio">Inicio</a>
               </li>
               <li class="nav-item active">
                 <a class="nav-link active" href="noticias">Noticias</a>

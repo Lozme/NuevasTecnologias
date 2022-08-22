@@ -5,6 +5,6 @@ from PaginaWeb.views import PaginaPrincipal,nombreVista,noticias
 
 #Se debe agregar la ruta en la que se mostrará la vista
 urlpatterns = [
-    path('NombreRuta/', nombreVista),
-    path('PaginaPrincipal', PaginaPrincipal),path('noticias',noticias)
+
+    path('', PaginaPrincipal),path('noticias',noticias),path('inicio', PaginaPrincipal)
 ]
