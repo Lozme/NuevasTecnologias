@@ -7,4 +7,5 @@ from PaginaWeb.views import PaginaPrincipal,nombreVista
 urlpatterns = [
     path('NombreRuta/', nombreVista),
     path('', PaginaPrincipal),
+    path('Noticias/',noticias)
 ]
