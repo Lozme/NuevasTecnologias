@@ -149,7 +149,7 @@ def PaginaPrincipal(response):
                 </div>
                 <div class="col-12 mt-3">
                     <h2 class="text-center">Ofertas Steam</h2>
-                    <div class="cards d-flex flex-wrap">
+                    <div class="cards d-flex flex-wrap justify-content-center">
                         <div class="card-container mt-2 ms-3">
                             <div class="container d-flex justify-content-center align-items-center" style="background-color: #008A27;width: 120px;height: 150px;">
                                 <div class="discount-label red" style="position: absolute;"><span style="font-size: 0.5rem;"><strong>-50%</strong></span></div> 
@@ -202,6 +202,24 @@ def PaginaPrincipal(response):
                             <div class="container d-flex justify-content-center align-items-center" style="background-color: #008A27;width: 120px;height: 150px;">
                                 <div class="discount-label red" style="position: absolute;"><span style="font-size: 0.5rem;"><strong>-35%</strong></span></div> 
                                 <img src="https://cl.buscafs.com/www.levelup.com/public/uploads/images/478984_256x320.jpg" class="img-fluid" style="width: 115px;height: 130px;" alt="Hollow Knight">
+                            </div>                
+                        </div>
+                        <div class="card-container mt-2 ms-3">
+                            <div class="container d-flex justify-content-center align-items-center" style="background-color: #008A27;width: 120px;height: 150px;">
+                                <div class="discount-label red" style="position: absolute;"><span style="font-size: 0.5rem;"><strong>-35%</strong></span></div> 
+                                <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/hc_167x260/public/media/image/2018/01/celeste-portada.jpg?itok=zaHBO9eM" class="img-fluid" style="width: 115px;height: 130px;" alt="Hollow Knight">
+                            </div>                
+                        </div>
+                        <div class="card-container mt-2 ms-3">
+                            <div class="container d-flex justify-content-center align-items-center" style="background-color: #008A27;width: 120px;height: 150px;">
+                                <div class="discount-label red" style="position: absolute;"><span style="font-size: 0.5rem;"><strong>-35%</strong></span></div> 
+                                <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2018/01/sfv-arcade-edition-portada.jpg" class="img-fluid" style="width: 115px;height: 130px;" alt="Hollow Knight">
+                            </div>                
+                        </div>
+                        <div class="card-container mt-2 ms-3">
+                            <div class="container d-flex justify-content-center align-items-center" style="background-color: #008A27;width: 120px;height: 150px;">
+                                <div class="discount-label red" style="position: absolute;"><span style="font-size: 0.5rem;"><strong>-35%</strong></span></div> 
+                                <img src="https://cdn.alfabetajuega.com/alfabetajuega/abj_public_files/multimedia/imagenes/201212/28054.cover7.jpg" class="img-fluid" style="width: 115px;height: 130px;" alt="Hollow Knight">
                             </div>                
                         </div>
                     </div>
