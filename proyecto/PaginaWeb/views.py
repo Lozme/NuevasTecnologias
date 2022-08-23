@@ -227,3 +227,245 @@ def PaginaPrincipal(response):
         </body>
         </html>
     ''')
+
+#CREADO POR: Victor Rios
+def noticias(response):
+    return HttpResponse('''
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Noticias</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <style>
+            *{ margin: 0; padding: 0; box-sizing: border-box; }
+            .row {
+                margin-right: auto;
+                margin-left: auto;
+            }
+            #jumbo{
+                margin-bottom: 0; 
+                color: white;
+                background-image: url(https://www.nitro-pc.es/blog/wp-content/uploads/2020/08/Portada-juegos-baratos.png);
+                background-color: #cccccc;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                height: 100%;
+        
+            }
+            a{
+                text-decoration: none!important;
+                color: black;
+            }
+            #frase{
+                background-color: rgba(61,0,0,0.5);
+            }
+            #upi{
+                color: #E04646;
+            }
+            #upi:hover{
+                color: white!important;
+            }
+            .active{
+                color: #E04646!important
+            }
+            .nav-link:hover,.bi:hover{
+                color: #E04646!important
+            }
+            .abs-center {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            #card:hover{
+                box-shadow: 5px 0px 40px rgba(224, 70, 70, 0.596);
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+                color: #212529!important; 
+            }
+            
+        </style>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        
+    </head>
+    <body style="background-color: #fef7f7;">
+        <div class="row">
+            <div class="rounded-3" style="background: rgb(0,0,0);background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,0,0,1) 35%);;color:aliceblue;font-size: 1.6rem;">
+            <h1 class="text-center  mt-2" style="font-size: 2.5rem;">Nombre Página / Logo</h1>
+            <p class="text-center" style="font-size: 1.5rem;">Alguna frase</p>
+            <hr style="margin: 0;">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/" style="color: aliceblue;font-size: 2rem;">Logo</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                            <a class="nav-link" href="Noticias" style="color: aliceblue;font-size: 1.5rem;margin-left: 5vw;">Noticias</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: aliceblue;font-size: 1.5rem;margin-left: 5vw;">Análisis</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: aliceblue;font-size: 1.5rem;margin-left: 5vw;">Guías</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: aliceblue;font-size: 1.5rem;margin-left: 5vw;">Foro</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            </div>
+        </div> 
+        <br><br>
+        <section>        
+            <div class="row">
+                <div class="col ">
+                    <div class="row text-center"  style="background-color: #212529;">
+                        <strong><h2 style="color: black;">ÚLTIMAS NOTICIAS DE VIDEOJUEGOS</h2></strong>
+                    </div>
+                    <br><br><br>
+                    <div class="row">
+                        <p style="color: black;"">Aquí encontrarás todas las noticias y las últimas novedades en videojuegos. Recopilamos cada día y minuto a minuto toda la actualidad del mundo de los videojuegos y sus diferentes plataformas para que siempre estés al corriente de la última actualización o contenido relacionado con tus títulos preferidos, de las fechas de lanzamiento de los juegos más esperados, los anuncios más importantes, reportajes, entrevistas, declaraciones, nuevas imágenes o tráileres y todas las curiosidades del mundillo para mantenerte informado y a la vez entretenido.</p>
+                    </div>
+                
+                </div>
+                <div class="col">
+                    <div class="ratio ratio-16x9" >
+                        <iframe src="https://www.youtube.com/embed/ezKQ-FE4UEQ" title="YouTube video" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </section>
+        <section style="background-color: #FEF7F7;">
+            <br>
+            <div class="row text-center">
+                <strong><h1>Noticias</h1></strong>
+            </div>
+            <hr>
+        </section>
+        <br>
+        <section style="background-color: #FEF7F7;">
+            <br><br>
+            <div class="row ">
+                <div class="col abs-center">
+                    <a href="https://vandal.elespanol.com/noticia/1350755903/kena-bridge-of-spirits-llega-a-steam-en-septiembre-con-nuevos-modos-y-opciones/">
+                        <div class="card mb-3" id="card" style="max-width: 540px;">
+                            <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://3y3seo1md7o8303qa48ddzzb-wpengine.netdna-ssl.com/wp-content/uploads/2022/06/gamer.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                <h5 class="card-title">Titulo</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maiores ipsa perspiciatis labore? Ea delectus est suscipit fugit nostrum sapiente quas exercitationem? Accusantium minima qui fugiat ipsam, pariatur quis blanditiis.</p>
+                                <p class="card-text">
+                                    <small class="text-muted"><i class="bi bi-clock-fill"></i> Last updated 3 mins ago</small>
+                                    <small class="text-muted"><i class="bi bi-person-fill"></i> Kevin Mier</small>
+                                </p>
+                                
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col abs-center">
+                    <a href="https://vandal.elespanol.com/noticia/1350755903/kena-bridge-of-spirits-llega-a-steam-en-septiembre-con-nuevos-modos-y-opciones/">
+                        <div class="card mb-3" id="card" style="max-width: 540px;">
+                            <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://3y3seo1md7o8303qa48ddzzb-wpengine.netdna-ssl.com/wp-content/uploads/2022/06/gamer.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                <h5 class="card-title">Titulo</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maiores ipsa perspiciatis labore? Ea delectus est suscipit fugit nostrum sapiente quas exercitationem? Accusantium minima qui fugiat ipsam, pariatur quis blanditiis.</p>
+                                <p class="card-text">
+                                    <small class="text-muted"><i class="bi bi-clock-fill"></i> Last updated 3 mins ago</small>
+                                    <small class="text-muted"><i class="bi bi-person-fill"></i> Kevin Mier</small>
+                                </p>
+                                
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <br>
+            <div class="row ">
+                <div class="col abs-center">
+                    <a href="https://vandal.elespanol.com/noticia/1350755903/kena-bridge-of-spirits-llega-a-steam-en-septiembre-con-nuevos-modos-y-opciones/">
+                        <div class="card mb-3" id="card" style="max-width: 540px;">
+                            <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://3y3seo1md7o8303qa48ddzzb-wpengine.netdna-ssl.com/wp-content/uploads/2022/06/gamer.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                <h5 class="card-title">Titulo</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maiores ipsa perspiciatis labore? Ea delectus est suscipit fugit nostrum sapiente quas exercitationem? Accusantium minima qui fugiat ipsam, pariatur quis blanditiis.</p>
+                                <p class="card-text">
+                                    <small class="text-muted"><i class="bi bi-clock-fill"></i> Last updated 3 mins ago</small>
+                                    <small class="text-muted"><i class="bi bi-person-fill"></i> Kevin Mier</small>
+                                </p>
+                                
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col abs-center">
+                    <a href="https://vandal.elespanol.com/noticia/1350755903/kena-bridge-of-spirits-llega-a-steam-en-septiembre-con-nuevos-modos-y-opciones/">
+                        <div class="card mb-3" id="card" style="max-width: 540px;">
+                            <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://3y3seo1md7o8303qa48ddzzb-wpengine.netdna-ssl.com/wp-content/uploads/2022/06/gamer.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                <h5 class="card-title">Titulo</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maiores ipsa perspiciatis labore? Ea delectus est suscipit fugit nostrum sapiente quas exercitationem? Accusantium minima qui fugiat ipsam, pariatur quis blanditiis.</p>
+                                <p class="card-text">
+                                    <small class="text-muted"><i class="bi bi-clock-fill"></i> Last updated 3 mins ago</small>
+                                    <small class="text-muted"><i class="bi bi-person-fill"></i> Kevin Mier</small>
+                                </p>
+                                
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <div class="row mt-4">
+            <div class="container-fluid" style="background-color: #191A19;">
+                <footer class="d-flex flex-wrap justify-content-between align-items-center">
+                <div class="col-md-4 d-flex align-items-center ms-5">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                        <i style="color: aliceblue; font-size: 2.5rem;" class="fa-brands fa-bootstrap"></i>
+                    </a>
+                    <span style="font-size: 1.5rem;" class="mb-3 mb-md-0 text-muted"><p style="color: aliceblue;" class="mt-3">&copy; 2022 Nombre Página, Inc</p></span>
+                </div>      
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex me-5">
+                    <li class="ms-3"><a class="text-muted" href="#"><i style="color: aliceblue; font-size: 2.5rem;" class="fa-brands fa-twitter"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><i style="color: aliceblue; font-size: 2.5rem;" class="fa-brands fa-instagram"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><i style="color: aliceblue; font-size: 2.5rem;" class="fa-brands fa-facebook-f"></i></a></li>
+                </ul>
+                </footer>
+            </div>
+        </div>
+    </body>
+    </html>
+    ''')
