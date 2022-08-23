@@ -36,6 +36,22 @@ def PaginaPrincipal(response):
                     margin-right: auto;
                     margin-left: auto;
                 }
+                .discount-label {
+                    background-color: red;
+                    padding:8px; 
+                    position:absolute;
+                    float:left;
+                    margin-top:-120px;
+                    margin-left:60px;
+                    width:30px;
+                    border-radius: 50%;
+                    transform: rotate(30deg);
+                }
+                .discount-label span {
+                    color:#ffffff;
+                    text-align:center;
+                    font-family:"Raleway",Helvetica;
+                }
             </style>
             <script src="https://kit.fontawesome.com/638f505c64.js" crossorigin="anonymous"></script>
         </head>
@@ -128,6 +144,65 @@ def PaginaPrincipal(response):
                         <img src="https://i.blogs.es/e6560e/f4c4882841adfdc7503b5a4d7a496829/1366_2000.jpg" class="img-fluid" style="width: 15%;border-radius: 20px;" alt="Zelda">                
                         <div class="container-fluid d-flex flex-column">
                             <h6>Titulo Articulo</h6><p>Autor: Nombre Persona</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-3">
+                    <h2 class="text-center">Ofertas Steam</h2>
+                    <div class="cards d-flex flex-wrap">
+                        <div class="card-container mt-2 ms-3">
+                            <div class="container d-flex justify-content-center align-items-center" style="background-color: #008A27;width: 120px;height: 150px;">
+                                <div class="discount-label red" style="position: absolute;"><span style="font-size: 0.5rem;"><strong>-50%</strong></span></div> 
+                                <img src="https://uvejuegos.com/img/caratulas/60296/pc.jpg" class="img-fluid" style="width: 115px;height: 130px;" alt="Dark Souls">
+                            </div>                
+                        </div>
+                        <div class="card-container mt-2 ms-3">
+                            <div class="container d-flex justify-content-center align-items-center" style="background-color: #008A27;width: 120px;height: 150px;">
+                                <div class="discount-label red" style="position: absolute;"><span style="font-size: 0.5rem;"><strong>-77%</strong></span></div>    
+                                <img src="https://media.redadn.es/imagenes/tomb-raider-pc_153837.jpg" class="img-fluid" style="width: 115px;height: 130px;" alt="Tomb Raider">
+                            </div>                
+                        </div>
+                        <div class="card-container mt-2 ms-3">
+                            <div class="container d-flex justify-content-center align-items-center" style="background-color: #008A27;width: 120px;height: 150px;">
+                                <div class="discount-label red" style="position: absolute;"><span style="font-size: 0.5rem;"><strong>-33%</strong></span></div> 
+                                <img src="https://i.pinimg.com/236x/f0/0f/aa/f00faa9d57c931debbf589a82cb06d6e.jpg" class="img-fluid" style="width: 115px;height: 130px;" alt="Uncharted">
+                            </div>                
+                        </div>
+                        <div class="card-container mt-2 ms-3">
+                            <div class="container d-flex justify-content-center align-items-center" style="background-color: #008A27;width: 120px;height: 150px;">
+                                <div class="discount-label red" style="position: absolute;"><span style="font-size: 0.5rem;"><strong>-20%</strong></span></div> 
+                                <img src="https://i.blogs.es/55a00e/gris/450_1000.jpg" class="img-fluid" style="width: 115px;height: 130px;" alt="Gris">
+                            </div>                
+                        </div>
+                        <div class="card-container mt-2 ms-3">
+                            <div class="container d-flex justify-content-center align-items-center" style="background-color: #008A27;width: 120px;height: 150px;">
+                                <div class="discount-label red" style="position: absolute;"><span style="font-size: 0.5rem;"><strong>-80%</strong></span></div> 
+                                <img src="https://uvejuegos.com/img/caratulas/53456/pc.jpg" class="img-fluid" style="width: 115px;height: 130px;" alt="Mass Effect Andromeda">
+                            </div>                
+                        </div>
+                        <div class="card-container mt-2 ms-3">
+                            <div class="container d-flex justify-content-center align-items-center" style="background-color: #008A27;width: 120px;height: 150px;">
+                                <div class="discount-label red" style="position: absolute;"><span style="font-size: 0.5rem;"><strong>-10%</strong></span></div> 
+                                <img src="https://cdn.tutsplus.com/cdn-cgi/image/width=640/psd/uploads/legacy/psdtutsarticles/linkb_60vgamecovers/19.jpg" class="img-fluid" style="width: 115px;height: 130px;" alt="Half life 2">
+                            </div>                
+                        </div>
+                        <div class="card-container mt-2 ms-3">
+                            <div class="container d-flex justify-content-center align-items-center" style="background-color: #008A27;width: 120px;height: 150px;">
+                                <div class="discount-label red" style="position: absolute;"><span style="font-size: 0.5rem;"><strong>-60%</strong></span></div> 
+                                <img src="https://sm.ign.com/ign_es/screenshot/default/781-2_4na5.jpg" class="img-fluid" style="width: 115px;height: 130px;" alt="Mafia">
+                            </div>                
+                        </div>
+                        <div class="card-container mt-2 ms-3">
+                            <div class="container d-flex justify-content-center align-items-center" style="background-color: #008A27;width: 120px;height: 150px;">
+                                <div class="discount-label red" style="position: absolute;"><span style="font-size: 0.5rem;"><strong>-70%</strong></span></div> 
+                                <img src="https://i.3djuegos.com/juegos/5635/darksiders_ii/fotos/ficha/darksiders_ii-1960314.jpg" class="img-fluid" style="width: 115px;height: 130px;" alt="Darksiders">
+                            </div>                
+                        </div>
+                        <div class="card-container mt-2 ms-3">
+                            <div class="container d-flex justify-content-center align-items-center" style="background-color: #008A27;width: 120px;height: 150px;">
+                                <div class="discount-label red" style="position: absolute;"><span style="font-size: 0.5rem;"><strong>-35%</strong></span></div> 
+                                <img src="https://cl.buscafs.com/www.levelup.com/public/uploads/images/478984_256x320.jpg" class="img-fluid" style="width: 115px;height: 130px;" alt="Hollow Knight">
+                            </div>                
                         </div>
                     </div>
                 </div>
