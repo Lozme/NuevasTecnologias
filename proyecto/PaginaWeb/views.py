@@ -920,3 +920,160 @@ def GuiaFreeFire(response):
         </body>
         </html>
     ''')
+
+
+
+def Analisiseldenring(response):
+    return HttpResponse('''
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Página Principal</title>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+            <style>
+                *{ margin: 0; padding: 0; box-sizing: border-box; }
+                .row {
+                    margin-right: auto;
+                    margin-left: auto;
+                }
+                .discount-label {
+                    background-color: red;
+                    padding:8px; 
+                    position:absolute;
+                    float:left;
+                    margin-top:-120px;
+                    margin-left:60px;
+                    width:30px;
+                    border-radius: 50%;
+                    transform: rotate(30deg);
+                }
+                .discount-label span {
+                    color:#ffffff;
+                    text-align:center;
+                    font-family:"Raleway",Helvetica;
+                }
+            </style>
+            <script src="https://kit.fontawesome.com/638f505c64.js" crossorigin="anonymous"></script>
+        </head>
+        <body style="background-color: #fef7f7;">
+            <div class="row">
+                <div class="rounded-3" style="background: rgb(0,0,0);background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,0,0,1) 35%);;color:aliceblue;font-size: 1.6rem;">
+                <h1 class="text-center  mt-2" style="font-size: 2.5rem;">Nombre Página / Logo</h1>
+                <p class="text-center" style="font-size: 1.5rem;">Alguna frase</p>
+                <hr style="margin: 0;">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#" style="color: aliceblue;font-size: 2rem;">Logo</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                <a class="nav-link" href="Noticias" style="color: aliceblue;font-size: 1.5rem;margin-left: 5vw;">Noticias</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="Analisis" style="color: aliceblue;font-size: 1.5rem;margin-left: 5vw;">Análisis</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="Guias" style="color: aliceblue;font-size: 1.5rem;margin-left: 5vw;">Guías</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="Foro" style="color: aliceblue;font-size: 1.5rem;margin-left: 5vw;">Foro</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                </div>
+            </div> 
+            
+
+        <div style="border: 5px solkid black;">
+            <img src="Imagenes Analisis 1 y 2/Imagen 1 elden ring.jpeg" alt="" width="100%" height="75%">
+            <h1>Elden Ring y este es nuestro análisis definitivo del juego de Fromsoftware</h1>
+        </div> 
+        <div>
+            <h3>
+                100 horas ha sido la cifra para completar nuestro viaje por las Tierras Intermedias. Una odisea que se saborea y se recuerda. Para muchos jugadores, Elden Ring será uno de los mejores ejemplos de por qué estamos en esta industria. De por qué nos gustan los videojuegos.
+            </h3>
+            <p>
+                En la Odisea, Ulises (u Odiseo) recibe uno de los máximos castigos de los dioses: vagar diez años en su regreso a Ítaca después de la guerra de Troya. Normalmente, los mitos se ciñen a una sola aventura, pero el héroe griego se enfrenta al cíclope, a las sirenas, a la bruja Circe, a Escila (la hidra) y Caribdis e incluso desciende al Inframundo. Por eso no conocemos su gesta como un viaje, sino como una odisea. Cuando juegas a Elden Ring, sientes que estás viviendo algo similar. No eres solo un sinluz en busca de convertirte en señor del Círculo de Elden; eres un conquistador de las Tierras Intermedias. Tu aventura no es una sola. Son muchas.
+            </p>
+            <p>
+                Después de 100 horas que marca el contador del juego, puedo decir que conozco Elden Ring. Es extraño esto. El juego está hecho conscientemente para que te sientas perdido. Su misticismo radica en lo hermético que es. Algunos de los lugares y misiones más espectaculares y largos del juego se esconden de la misma forma que otro videojuego escondería un coleccionable. Y, una vez que lo has completado todo (o casi todo, las primeras partidas a los juegos de FromSoftware son peculiares) el misterio inevitablemente se pierde y se transforma en otra cosa: en recuerdo de tus gestas. Has vuelto a Ítaca, pero diferente. Ya no eres el mismo.
+            </p>
+            <p >
+                Ahora que ya no puedo jugar a Elden Ring de la forma constante que lo he hecho estos días porque ya lo he terminado, el juego comienza otro viaje: se está haciendo fuerte en el recuerdo. Noto cómo sus mazmorras, sus enemigos y los momentos épicos vividos empiezan5 a transformarse en una suerte de nostalgia temprana. Es casi como una droga. Sigues en esta industria, sigues jugando a videojuegos, buscando ese nuevo juego que te ofrezca las sensaciones que lograron obras como Elden Ring.
+            </p>
+        </div>
+            <h1>La ambición del mundo abierto</h1>
+            <img src="Imagenes Analisis 1 y 2/imagen 2 elden ring.jpg" alt="" height="75%" width="75%">
+            <div>
+            <p>
+                Creo que el secreto está en su diseño. Recuerdo jugar a Far Cry 3, hace ya 10 años, y entrar en un búnker para la misión principal donde su mundo abierto se echaba a un lado para, por un momento, convertirse en un juego algo más lineal. Pensé que eso era lo correcto. Los mundos abiertos debían ser lienzos sobre los que pintar aventuras sin perder las bondades del diseño de un nivel cerrado. Porque mundo abierto y mundo cerrado no deben ser antónimos el uno del otro, sino complementarios. Y, sin embargo, desde entonces, he visto cómo los desarrolladores ya sufrían largos desarrollos por entregar juegos en los que todo sucede en ese lienzo. Quizá por ello, el campamento amurallado se ha convertido casi en un símbolo de este tipo de mundos abiertos. Una forma simple de cercar ese entorno inabarcable.
+            </p>
+            <p>
+                Elden Ring hace algo que a todas luces parece demasiado arriesgado. Se niega a dejar de ser ese juego clásico con un diseño de niveles excelso, solo por construirse en un mapa lleno de kilómetros cuadrados que recorrer. Ofrece lo mejor de los dos mundos y lo mezcla con un ritmo marcado por el jugador. Esto de por sí ya sería digno de elogio, no funcionaría si no fuera por la calidad de su contenido. Dentro de esas "actividades" que forman un mundo abierto, las de Elden Ring son todas tan atractivas que quiere hacerlas todas. No sientes que hay contenido principal y secundario, porque mucho del secundario tiene tanta o más calidad que el principal, sino que todo parece obligatorio si quieres tener la experiencia completa en las Tierras Intermedias.
+            </p>
+            <p>
+                Es por eso que no podía ceñirme a la misión principal y acabar este análisis. Tenía que completarlo todo. Cada vez que descubría un secreto o alguien me guiaba a una nueva zona no podía evitar acudir ahí, atraído por el canto de la sirena. Es esa curiosidad que mató al gato, porque vas a morir muchas veces irremediablemente, y a la que no puedes resistirte. El motor de FromSoftware es, y siempre ha sido, la curiosidad del jugador. Ahora que ya tiene cierto renombre, que sabe que sus aficionados van a explorar hasta el último centímetro cuadrado del mapa, pueden permitirse licencias que otros estudios no harían. Por ello, Elden Ring esconde una inmensa cantidad de secretos que dan lugar a los niveles más trabajados que he visto del estudio detrás de una simple pared (hablo simbólica y literalmente). Como probablemente estaréis haciendo, descubrir y compartir estos secretos forma parte de la experiencia; y Elden Ring lleva esa sensación de recompensa a un nuevo nivel.
+            </p>
+            </div>
+            <h1>Arbol de la vida </h1>
+            <img src="Imagenes Analisis 1 y 2/imagen 3 elden ring.jpg" alt="" height="100%" width="100%">
+            <div>
+                <p> 
+                    Dice el escritor de fantasía Brandon Sanderson en una de sus clases (aparte de amistosamente envidiar la participación de Martin) que las ideas valen poco; lo importante es cómo las escribas. Para explicarlo, pone un ejemplo que me gusta mucho. El escritor Jim Butcher defendía esto ante unos aficionados en un foro que creían que una buena idea lo era todo. Él se comprometió a hacer un libro con la idea más absurda que le pudieran plantear; y lo que le plantearon fue mezclar Pokémon con la última legión romana. El resultado es una exitosa serie de libros llamada Codex Alera y a mí me sirve para explicar lo ocurrido con George R.R. Martin. Lo importante en una historia no siempre es el qué se cuenta, sino el cómo. Y la forma que tiene From de narrar sus juegos es tan personal que absorbe las ideas de Martin hasta el punto de hacerlas pasar por propias.
+                </p>
+                <p>
+                    De Martin entonces, y como lector suyo, puedes notar algunos conceptos, pero su trabajo ha sido más en la sombra. Es el que los escritores de fantasía realizan antes de ponerse a escribir, cuando elaboran el pasado de sus mundos fantásticos. Es From la encargada de contarlo todo a través de la tradicional descripción de objetos y escasos diálogos de sus habitantes. Y el resultado a mi parecer se asemeja más a Bloodborne, por ejemplo, en la forma de ir tirando de un hilo pasado hasta descubrir lo que ha sucedido en el mundo de las Tierras Intermedias.
+                </p>
+                <p>
+                    Al fin y al cabo, Martin no solo ha escrito Canción de Hielo y Fuego dentro del ámbito fantástico, sino que se ha centrado mucho en la ciencia-ficción y el terror. Por tanto, es difícil analizar sus tropos como lo podríamos hacer de otros autores como Sanderson o Abercrombie. Algunos temas, como las traiciones, la política y los escarceos de las clases altas, son propias del autor, no hay duda; pero también son tropos clásicos de la fantasía épica en general. De hecho, en los nombres de los personajes, que muchos comparten prefijos comunes, es algo en lo que coinciden tanto George R.R. Martin como Hidetaka Miyazaki (Rhaegon, Rhaegar, Rhaenys en Canción de Hielo y Fuego; Gwyn, Gwynevere, Gwyndolin en Dark Souls). Lo mismo sucede en Elden Ring.
+                </p>
+            </div>
+            <div>
+                <h1>Un mundo bello y fragmentado</h1>
+                <p>
+                    A medida que progresaba en mi partida, me ha ocurrido algo que tiene que ver con esa dicotomía tan marcada en los juegos de FromSoftware. El diseño visual se fue comiendo al técnico cada vez más. Necrolimbo es, sin duda, la zona más sufrida, donde más problemas he visto a nivel de popping de hierba, stuttering y caídas de frames. Poco a poco, el juego mantiene la escala pero mejora su suavidad. Las mazmorras se comportan siempre con una tasa de frames estable y los nuevos biomas como el de Liurna dan paso a lugares más escarpados que camuflan mejor los defectos de las vastas praderas del Necrolimbo.
+
+
+                    No es excusa, claro está: FromSoftware tiene que mejorar asperezas tanto en el rendimiento del juego en PC y consolas como en el propio motor de juego, que no es capaz de representar algunos materiales como deberían. Probablemente el pelo de animales y personas sea uno de los aspectos que más sufren estos. Sin embargo, estoy de acuerdo en que Elden Ring no es el juego que debía liderar ese cambio; es intergeneracional y ha sufrido retrasos; es también un juego tan grande que un cambio de motor habría causado quizá muchos problemas. Pero sí, toca cambio de motor que se adecúe a la próxima generación.
+                </p>
+                <img src="Imagenes Analisis 1 y 2/Elden ring 4.jpg" alt="" width="75%" height="75%">
+                <p>
+                    Cuando me puse a jugar a Elden Ring, no imaginaba lo que me esperaba. Es uno de esos raros casos en que las expectativas se quedan cortas. En que ese juego que te has imaginado y has idealizado en tu cabeza después de todo el hype y todos los tráileres, se ve superado a los mandos. Y quiero decir, para que conste, que no me gustaría que todo en el futuro de FromSoftware fuera como Elden Ring a partir de ahora. Me gusta tanto o más su lado más vanguardista de Bloodborne y Sekiro, orientado a las mecánicas nuevas y la acción más que el RPG. A veces pienso que el éxito que Elden Ring está teniendo es tan desmesurado que podría sacar el lado más continuista de FromSoftware o de Bandai Namco. Me gusta la From que abraza distintas editoras para hacer ideas diferentes y espero que siga así.
+                </p>
+                <h2>Hay que disfrutar de Elden Ring, porque ocasiones así son tan únicas y fugaces como una estrella que cae del cielo</h2>
+                <p>
+                    Sin embargo creo que, con el paso del tiempo, el recuerdo de Elden Ring no hará más que mejorar más todavía. Lo que ha conseguido el equipo de Hidetaka Miyazaki es tan único y ambicioso que a veces dudo de que logre crear escuela. Porque, ¿qué estudio en su sano juicio crearía tanto contenido para un solo juego y sin DLCs? ¿Quién mimaría cada rincón de su vasto entorno para esconder secretos únicos? ¿Quién estaría dispuesto a reservar algunos de los mejores niveles para que solo lo vean un porcentaje muy reducido de los jugadores? La respuesta, lamentablemente, no es fácil. Pocos en nuestra amada industria tienen ahora mismo la libertad y la autoría de Hidetaka Miyazaki. Su filosofía de "Dirección Total", ahorrando intermediarios y supervisando todas las ramas del diseño, es, en el fondo, la más pareja a la que tienen los reputados directores de cine. Hay que disfrutar de Elden Ring, porque ocasiones así son tan únicas y fugaces como una estrella que cae del cielo. Dice el poema de Kavafis que "Cuando emprendas tu viaje a Itaca, pide que el camino sea largo, lleno de aventuras, lleno de experiencias. […] Ten siempre a Itaca en tu mente. Llegar allí es tu destino. Mas no apresures nunca el viaje. Mejor que dure muchos años y atracar, viejo ya, en la isla, enriquecido de cuanto ganaste en el camino sin aguantar a que Itaca te enriquezca."
+                </p>
+            </div>
+            <h3 style="text-align: left;">Siguenos en</h3>
+        
+
+            <div class="row mt-4">
+                <div class="container-fluid" style="background-color: #191A19;">
+                    <footer class="d-flex flex-wrap justify-content-between align-items-center">
+                    <div class="col-md-4 d-flex align-items-center ms-5">
+                        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                            <i style="color: aliceblue; font-size: 2.5rem;" class="fa-brands fa-bootstrap"></i>
+                        </a>
+                        <span style="font-size: 1.5rem;" class="mb-3 mb-md-0 text-muted"><p style="color: aliceblue;" class="mt-3">&copy; 2022 Nombre Página, Inc</p></span>
+                    </div>      
+                    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex me-5">
+                        <li class="ms-3"><a class="text-muted" href="#"><i style="color: aliceblue; font-size: 2.5rem;" class="fa-brands fa-twitter"></i></a></li>
+                        <li class="ms-3"><a class="text-muted" href="#"><i style="color: aliceblue; font-size: 2.5rem;" class="fa-brands fa-instagram"></i></a></li>
+                        <li class="ms-3"><a class="text-muted" href="#"><i style="color: aliceblue; font-size: 2.5rem;" class="fa-brands fa-facebook-f"></i></a></li>
+                    </ul>
+                    </footer>
+                </div>
+            </div>
+        </body>
+        </html>
+    ''')
+
