@@ -908,7 +908,7 @@ def GuiaFreeFire(response):
                         <p class="mt-3">En nuestra completa guía de Free Fire, el popular juego de móviles, te enseñamos los mejores consejos para sobrevivir y ganar en sus intensas y divertidas partidas Battle Royale.</p>
                     </div>
                     <div class="d-flex justify-content-center">
-                        <iframe class="mt-3" width="75%" height="380" src="https://www.youtube.com/embed/CgqrHG_3i9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="mt-3" width="50%" height="380" src="https://www.youtube.com/embed/CgqrHG_3i9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="mt-3">
                         <p style="text-align:justify;">
@@ -919,4 +919,362 @@ def GuiaFreeFire(response):
             </div>
         </body>
         </html>
+    ''')
+
+
+##################################################################################################################################################
+##################################################################################################################################################
+
+#CREADO POR: Maria Paulina Otálvaro y Sergio Andrés Restrepo
+def Analisis(response):
+    return HttpResponse('''
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANÁLISIS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <style>
+        *{ margin: 0; padding: 0; box-sizing: border-box; }
+        .row {
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
+.carousel-caption.d-none.d-md-block {
+display: block!important;
+margin-bottom: -7%;
+}
+img.d-block.w-100.img-fluid:hover {
+    filter: sepia(60%);
+    transition-duration: 2s, 3s, 2s, 3s;
+}
+div#carouselExampleFade {
+    margin-top: 8rem!important;
+}
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+ h2.text-center {
+    margin-top: -53.8px;
+    margin-bottom: 5%;
+}
+h3.text-titulo2 {
+    font-size: 38px;
+    text-align: center;
+}
+.row {
+margin-right: auto;
+margin-left: auto;
+}
+.row-seccion-analisis {
+background: wheat;
+border: 0;
+margin-left: 13vw;
+margin-right: 14vw;
+margin-top: 10%;
+}
+.col-12-sec1 {
+flex: 0 0 auto;
+width: 100%;
+height: 50%;
+}
+p.textoEnlace {
+    margin-left: -12%;
+    margin-bottom: -11%;
+}
+p.texto1analisis {
+    margin-top: 89px !important;
+    margin-bottom: -5rem !important;
+    margin-left: -8% !important;
+}
+                
+.tarjeta{
+background: black;
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+width:420px;
+border: 1px solid rgb(32, 15, 15);
+box-shadow: 2px 2px 8px 4px #a03131d1;
+border-radius:15px;
+font-family: sans-serif;
+margin-left: 3%;
+}
+.tarjeta-2{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 420px;
+    border: 1px solid rgb(32, 15, 15);
+    box-shadow: 2px 2px 8px 4px #a03131d1;
+    border-radius: 15px;
+    font-family: sans-serif;
+    margin-left: 53%;
+    margin-top: -30%;
+}
+.tarjeta-3{
+background: black;
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+width:420px;
+border: 1px solid rgb(32, 15, 15);
+box-shadow: 2px 2px 8px 4px #a03131d1;
+border-radius:15px;
+font-family: sans-serif; 
+margin-top: 5%;
+margin-left: 3%;
+}
+.tarjeta-4{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 420px;
+    border: 1px solid rgb(32, 15, 15);
+    box-shadow: 2px 2px 8px 4px #a03131d1;
+    border-radius: 15px;
+    font-family: sans-serif;
+    margin-left: 53%;
+    margin-top: -30.7%;
+}
+h4.textimg-sec2 {
+    color: white;
+    position: absolute;
+    margin-left: 9%;
+    margin-top: -3%;
+}
+h4.textimg1-sec2 {
+    color: white;
+    position: absolute;
+    margin-left: 9%;
+    margin-top: -3%;
+}
+h4.textimg2-sec2 {
+    color: white;
+    position: absolute;
+    margin-left: 9%;
+    margin-top: -3%;
+}
+h4.textimg3-sec2 {
+    color: white;
+    position: absolute;
+    margin-left: 9%;
+    margin-top: -3%;
+}
+/* tarjetas seccion tres */
+.tarjeta-sec2{
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+width:420px;
+border: 1px solid rgb(32, 15, 15);
+box-shadow: 2px 2px 8px 4px #a03131d1;
+border-radius:15px;
+font-family: sans-serif;
+margin-left: 3%;
+}
+div a {text-decoration: none;}
+.tarjeta-2-sec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 420px;
+    border: 1px solid rgb(32, 15, 15);
+    box-shadow: 2px 2px 8px 4px #a03131d1;
+    border-radius: 15px;
+    font-family: sans-serif;
+    margin-left: 53%;
+    margin-top: -59%;
+}
+.tarjeta-3-sec2{
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+width:420px;
+border: 1px solid rgb(32, 15, 15);
+box-shadow: 2px 2px 8px 4px #a03131d1;
+border-radius:15px;
+font-family: sans-serif; 
+margin-top:5% ;
+margin-left: 3%;
+}
+.tarjeta-4-sec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 420px;
+    border: 1px solid rgb(32, 15, 15);
+    box-shadow: 2px 2px 8px 4px #a03131d1;
+    border-radius: 15px;
+    font-family: sans-serif;
+    margin-left: 53%;
+    margin-top: -59%;
+}
+.titulo{
+font-size: 24px;
+padding: 10px 10px 0 10px;
+}
+.cuerpo{
+    padding: 7px;
+    background-color: #890000;
+    border-radius: 43px;
+}
+.pie{
+background: #442929;
+border-radius:0 0 15px 15px;
+padding: 10px;
+text-align:center;
+color: white;
+}
+.pie a{
+text-decoration: none;
+}
+.pie a:after {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 1;
+color: white;
+}
+.pie:hover{
+    background:radial-gradient( circle, black, #1162ac);
+    transition-duration: 2s, 3s, 2s, 3s;
+}
+img.img-sec2-1 {
+    width: 100% !important;
+    
+}
+img.img-sec2-1:hover {
+    filter: blur(4px);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+    transition-duration: 2s, 3s, 2s, 3s;
+}
+img.img-sec2-2 {
+   
+   width: 100% !important;
+   border-radius: 20px;
+   height: 17vw;
+}
+img.img-sec2-2:hover {
+    filter: blur(4px);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+    transition-duration: 2s, 3s, 2s, 3s;
+}
+img.img-sec2-3 {
+    width: 100% !important;
+    height: 17vw;
+}
+img.img-sec2-3:hover {
+    filter: blur(4px);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+    transition-duration: 2s, 3s, 2s, 3s;
+}
+img.img-sec2-4 {
+    width: 100% !important;
+    height: 17vw;
+}
+img.img-sec2-4:hover {
+    filter: blur(4px);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+    transition-duration: 2s, 3s, 2s, 3s;
+}
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="rounded-3" style="background: rgb(0,0,0);background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,0,0,1) 35%);;color:aliceblue;font-size: 1.6rem;">
+        <h1 class="text-center  mt-2" style="font-size: 2.5rem;">Nombre Página / Logo</h1>
+        <p class="text-center" style="font-size: 1.5rem;">Alguna frase</p>
+        <hr style="margin: 0;">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../" style="color: aliceblue;font-size: 2rem;">Logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link" href="../Noticias" style="color: aliceblue;font-size: 1.5rem;margin-left: 5vw;">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: aliceblue;font-size: 1.5rem;margin-left: 5vw;">Análisis</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="../Guias" style="color: aliceblue;font-size: 1.5rem;margin-left: 5vw;">Guías</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" href="../Foro" style="color: aliceblue;font-size: 1.5rem;margin-left: 5vw;">Foro</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </div>
+    </div> 
+    <div class="row d-flex justify-content-center">
+        <div class="container-fluid w-75">
+            <div>
+                <h2 class="mt-5 text-center" style="background-color:black;color:aliceblue;">ANÁLISIS DE VIDEOJUEGOS</h2>
+            </div>
+            <div class="mt-3">
+                <p style="text-align:justify;">
+                    En esta página encontrarás todos los análisis de videojuegos que tenemos. ¿Estás pensando en comprar un videojuego? En esta web contamos con un equipo de analistas especializados para analizar los últimos lanzamientos valorando aspectos como los gráficos, el sonido, la jugabilidad, el rendimiento, los diferentes modos de juego y otros aspectos en su conjunto y le aplicamos una nota de 1 a 10, que representa su calidad general, para que te ayude a decidir qué juegos merecen la pena, cuáles cumplen las expectativas y cuáles se quedan atrás.
+                </p>
+            </div>
+            <div class="container-fluid ">
+                <div class="col-12">
+                    <div class="tarjeta">
+                        <div class="cuerpo"> 
+                            <img src="https://media.vandal.net/i/300x160/8-2022/20228101316025_1.jpg"  class="img-sec2-2" style="width: 15%;border-radius: 10px;" alt="muestra"><h4 class="textimg-sec2">Spider-Man: Remastered</h4>              
+                        </div>                
+                        <a href="#"><div class="pie">Analizamos la versión para PC del videojuego de Insomniac Games que llega a nuestros ordenadores con una versión muy trabajada para ofrecer la mejor calidad técnica y rendimiento posibles.</div></a>
+                    </div>
+                </div>
+                    
+                        <div class="tarjeta-2">
+                        <div class="cuerpo"> 
+                            <img src="https://media.vandal.net/i/300x160/7-2022/20227268545686_1.jpg"  class="img-sec2-2" style="width: 15%;border-radius: 10px;" alt="muestra"><h4 class="textimg1-sec2">Xenoblade Chronicles 3</h4>                            
+                        </div>
+                        
+                        <a href="#"><div class="pie">Monolith Soft lo vuelve a hacer para traernos uno de los mejores y más descomunales JRPG de los últimos años.</div></a>
+
+                        </div>
+                        <div class="tarjeta-3">
+                            <div class="cuerpo"> 
+                                <img src="https://media.vandal.net/i/300x160/5-2022/202253130458_1.jpg"  class="img-sec2-3" style="width: 15%;border-radius: 10px;" alt="muestra"><h4 class="textimg2-sec2">Trek to Yomi</h4>                            
+                            </div>
+                        
+                            <a href="#"><div class="pie">Una aventura de samuráis espectacular e impactante, pero que sabe a poco en los aspectos jugables.</div></a>
+    
+                            </div>
+                            <div class="tarjeta-4">
+                                <div class="cuerpo"> 
+                                    <img src="https://media.vandal.net/i/300x160/4-2022/20224161753156_1.jpg"  class="img-sec2-4" style="width: 15%;border-radius: 10px;" alt="muestra"><h4 class="textimg3-sec2">  Chernobylite</h4>                 
+                                </div>
+                                
+                                <a href="#"><div class="pie">Chernobylite, la interesante aventura de The Farm 51, se adapta a las nuevas consolas y soluciona problemas técnicos que sufría la anterior generación.</div></a>
+        
+                                </div>
+                    
+                            </div>
+                        </div>
+                        
+                        <!--seccion 3-->
+                    </div>                   
+                </div>
+            </div>                             
+        </div>
+    </div>
+</body>
+</html>
     ''')
