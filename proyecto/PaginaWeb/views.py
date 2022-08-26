@@ -37,7 +37,7 @@ def PaginaPrincipal(response):
                     margin-left: auto;
                 }
                 .discount-label {
-                    background-color: red;
+                    background-color: #950101;
                     padding:8px; 
                     position:absolute;
                     float:left;
@@ -224,6 +224,80 @@ def PaginaPrincipal(response):
                     </footer>
                 </div>
             </div>
+        </body>
+        </html>
+    ''')
+
+#CREADO POR ESTIVEN
+def GuiaGOW(response):
+    return HttpResponse('''
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>GUIA</title>
+        </head>
+        <body>
+            <div>
+                <h2>Guía God of War (PC, PS4 y PS5): Trucos, consejos y secretos</h2>
+                <h4>Enseña a Kratos a ser padre y a Atreus a ser un dios con la guía más completa de God of War en español.</h4>
+            </div>
+            <div>
+                <img src="https://media.vandal.net/m/3-2020/20203218232519_1.jpg" alt="" srcset="">
+            </div>
+                <div>
+                    <p>
+                        Bienvenidos a la guía más completa de God of War para PS4, PC y PS5. Descubre todos los secretos del juego, complétalo al 100%, consigue todos los trofeos y descúbrelo todo sobre la nueva aventura del dios de la guerra. Como es sabido, Kratos acabó con todo aquello que se interponía en su camino en la antigua Grecia. Sin embargo, ahora, cansado y muy cambiado, vive en los lejanos reinos del norte acompañado de su hijo Atreus. No te dejes nada en God of War PS4 con nuestra guía completa del juego.
+                    </p>
+                </div>
+                <div>
+                    <h4>Preguntas frecuentes</h4>
+                    <p>
+                        <ul> <li> <b>Cómo mejorar las armaduras:</b> Tendrás que esperar a haber avanzado lo suficiente en la historia para desbloquear la tienda. Puedes mejorar tu equipo en cualquiera de las tiendas del juego.</li>
+                        </ul>
+                        <ul> <li> <b>Cómo conseguir los materiales para mejorar las armas:</b> Se trata de materiales que el juego nos da automáticamente al derrotar a los jefes. Para la última mejora de las armas principales debes completar los Reinos opcionales.</li>
+                        </ul>
+                        <ul> <li> <b>Cómo conseguir mejores armaduras:</b> Las mejores armaduras se consiguen en Niflheim. En los cofres el equipo es la mayoría de veces aleatorio.</li>
+                        </ul>
+                        <ul> <li> <b>Cómo conseguir XP y Plata rápidamente;</b> No hay un sistema rápido, el juego está perfectamente equilibrado en este sentido.</li>
+                        </ul>
+                        <ul> <li> <b>¿Hace falta haber jugado a los God of War anteriores para entender la historia?</b> No. Siempre que sepas quién es Kratos y a quiénes mató en Grecia, podrás comprender la historia perfectamente.</li>
+                        </ul>
+                    </p>
+                </div>
+                <div>
+                    <h4>Historia</h4>
+                    <p>
+                        Te contamos cómo superar todas las misiones de historia de God of War, sin spoilers e indicando una buena parte de los coleccionables que encontrarás en tu camino. Si quieres exprimir tu partida al máximo, no te pierdas nuestra guía completa de la historia de God of War.
+                    </p>
+                </div>
+                <div>
+                    <h4>Favores</h4>
+                    <p>
+                        God of War nos ofrece unas cuantas misiones secundarias, que en este caso llevan el nombre de Favores. Desde las criaturas más pequeñas hasta los monstruos más grandes, todos tienen algo que pedirte y nosotros te contamos cómo cumplir con todo. Todos los favores.
+                    </p>
+                </div>
+                <div>
+                    <h4>Valquirias</h4>
+                    <p>
+                        Las valquirias están de nuevo sobre la tierra. Sin embargo, parece que no lo están precisamente por voluntad propia. Kratos tendrá que enfrentarse a ellas y averiguar qué ha sucedido si quiere arreglar esta situación. Derrotar a todas las valquirias no será fácil, pero nosotros te ayudaremos a salir con vida de los enfrentamientos.
+                    </p>
+                </div>
+                <div>
+                    <h4>Mapas del tesoro</h4>
+                    <p>
+                        Un sitio tan antiguo como Midgard no puede tener todo a simple vista. Repartidas por las distintas regiones del Reino de los hombres, encontrarás una serie de ubicaciones que tienen un tesoro oculto. Estos tesoros contienen Recursos especiales, enfocados a poder mejorar nuestros accesorios y, cómo no, conseguir una buena cantidad de Plata.
+                        <br><br>
+                        No vayas demasiado rápido, porque tendrás que encontrar los mapas para poder coger los tesoros. Lo primero es fácil, para lo segundo puede que tengas problemas, ya que sólo te dan una imagen y una pista de dónde buscar.
+                    </p>
+                </div>
+                <div>
+                    <h4>Cámaras Ocultas de Odín</h4>
+                    <p>
+                        El padre de los dioses del norte tiene una serie de escondrijos para sus tesoros repartidos por los Reinos. ¿Qué es lo que realmente ha ocultado en estos lugares y por qué? Sólo hay una manera de averiguarlo: abriendo las Cámaras. Todas las cámaras ocultas de Odín.
+                    </p>
+                </div>
         </body>
         </html>
     ''')
