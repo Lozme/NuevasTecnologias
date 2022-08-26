@@ -73,7 +73,7 @@ def PaginaPrincipal(response):
             <div class="row">
                 <div class="col-6 mt-2">
                     <div class="container-fluid" style="width: 80%;">            
-                        <h2 class="text-center">Últimas Noticias</h2>
+                        <h2 class="text-center" style="background-color:black;color:aliceblue;">Últimas Noticias</h2>
                         <div id="carouselExampleFade" class="carousel slide carousel-fade mt-3" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -110,7 +110,7 @@ def PaginaPrincipal(response):
                     </div>
                 </div>
                 <div class="col-6 mt-2">
-                    <h2 class="text-center">Publicaciones Destacadas</h2>
+                    <h2 class="text-center" style="background-color:black;color:aliceblue;">Publicaciones Destacadas</h2>
                     <div class="container-fluid d-flex justify-content-start mt-3">
                         <img src="https://www.enter.co/wp-content/uploads/2017/03/Persona-5-Protagonist-Introduction.jpg" class="img-fluid" style="width: 15%;border-radius: 20px;" alt="Persona 5">                
                         <div class="container-fluid d-flex flex-column">
@@ -131,7 +131,7 @@ def PaginaPrincipal(response):
                     </div>
                 </div>
                 <div class="col-12 mt-3">
-                    <h2 class="text-center">Ofertas Steam</h2>
+                    <h2 class="text-center" style="background-color:black;color:aliceblue;">Ofertas Steam</h2>
                     <div class="cards d-flex flex-wrap justify-content-center">
                         <div class="card-container mt-2 ms-3">
                             <div class="container d-flex justify-content-center align-items-center" style="background-color: #008A27;width: 120px;height: 150px;">
@@ -304,14 +304,14 @@ def Noticias(response):
             <hr style="margin: 0;">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="/" style="color: aliceblue;font-size: 2rem;">Logo</a>
+                    <a class="navbar-brand" href="../" style="color: aliceblue;font-size: 2rem;">Logo</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                            <a class="nav-link" href="Noticias" style="color: aliceblue;font-size: 1.5rem;margin-left: 5vw;">Noticias</a>
+                            <a class="nav-link" href="#" style="color: aliceblue;font-size: 1.5rem;margin-left: 5vw;">Noticias</a>
                             </li>
                             <li class="nav-item">
                             <a class="nav-link" href="#" style="color: aliceblue;font-size: 1.5rem;margin-left: 5vw;">Análisis</a>
@@ -320,7 +320,7 @@ def Noticias(response):
                             <a class="nav-link" href="#" style="color: aliceblue;font-size: 1.5rem;margin-left: 5vw;">Guías</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" href="Foro" style="color: aliceblue;font-size: 1.5rem;margin-left: 5vw;">Foro</a>
+                            <a class="nav-link" href="../Foro" style="color: aliceblue;font-size: 1.5rem;margin-left: 5vw;">Foro</a>
                             </li>
                         </ul>
                     </div>
@@ -332,16 +332,19 @@ def Noticias(response):
         <section>        
             <div class="row">
                 <div class="col ">
-                    <div class="row text-center"  style="background-color: #212529;">
-                        <strong><h2 style="color: black;">ÚLTIMAS NOTICIAS DE VIDEOJUEGOS</h2></strong>
+                    <div class="row text-center"  style="background-color: black;">
+                        <strong><h2 style="color:aliceblue;">NUESTRO CONTENIDO</h2></strong>
                     </div>
                     <br><br><br>
                     <div class="row">
-                        <p style="color: black;"">Aquí encontrarás todas las noticias y las últimas novedades en videojuegos. Recopilamos cada día y minuto a minuto toda la actualidad del mundo de los videojuegos y sus diferentes plataformas para que siempre estés al corriente de la última actualización o contenido relacionado con tus títulos preferidos, de las fechas de lanzamiento de los juegos más esperados, los anuncios más importantes, reportajes, entrevistas, declaraciones, nuevas imágenes o tráileres y todas las curiosidades del mundillo para mantenerte informado y a la vez entretenido.</p>
+                        <p style="color: black;text-align:justify;">Aquí encontrarás todas las noticias y las últimas novedades en videojuegos. Recopilamos cada día y minuto a minuto toda la actualidad del mundo de los videojuegos y sus diferentes plataformas para que siempre estés al corriente de la última actualización o contenido relacionado con tus títulos preferidos, de las fechas de lanzamiento de los juegos más esperados, los anuncios más importantes, reportajes, entrevistas, declaraciones, nuevas imágenes o tráileres y todas las curiosidades del mundillo para mantenerte informado y a la vez entretenido.</p>
                     </div>
                 
                 </div>
                 <div class="col">
+                    <div class="row text-center"  style="background-color: black;">
+                        <strong><h2 style="color:aliceblue;">ÚLTIMO VIDEO</h2></strong>
+                    </div><br><br>
                     <div class="ratio ratio-16x9" >
                         <iframe src="https://www.youtube.com/embed/ezKQ-FE4UEQ" title="YouTube video" allowfullscreen></iframe>
                     </div>
@@ -351,10 +354,9 @@ def Noticias(response):
         </section>
         <section style="background-color: #FEF7F7;">
             <br>
-            <div class="row text-center">
-                <strong><h1>Noticias</h1></strong>
+            <div class="row text-center"  style="background-color: black;">
+                <strong><h2 style="color:aliceblue;">ÚLTIMAS NOTICIAS</h2></strong>
             </div>
-            <hr>
         </section>
         <br>
         <section style="background-color: #FEF7F7;">
@@ -500,19 +502,19 @@ def Foro(response):
         <body style=" background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ02qYYeqeXEnbgAN_I4-AaDzDx0btqxvzW7g&usqp=CAU);">
             <div class="row">
                 <div class="rounded-3" style="background: rgb(0,0,0);background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,0,0,1) 35%);;color:aliceblue;font-size: 1.6rem;">
-                <h1 class="text-center  mt-2" style="font-size: 2.5rem;">Foros </h1>
-                <p class="text-center" style="font-size: 1.5rem;">Categoria: juegos</p>
+                <h1 class="text-center  mt-2" style="font-size: 2.5rem;">Nombre Página / Logo</h1>
+                <p class="text-center" style="font-size: 1.5rem;">Alguna frase</p>
                 <hr style="margin: 0;">
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#" style="color: aliceblue;font-size: 2rem;">Logo</a>
+                        <a class="navbar-brand" href="../" style="color: aliceblue;font-size: 2rem;">Logo</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                <a class="nav-link" href="Noticias" style="color: aliceblue;font-size: 1.5rem;margin-left: 5vw;">Noticias</a>
+                                <a class="nav-link" href="../Noticias" style="color: aliceblue;font-size: 1.5rem;margin-left: 5vw;">Noticias</a>
                                 </li>
                                 <li class="nav-item">
                                 <a class="nav-link" href="#" style="color: aliceblue;font-size: 1.5rem;margin-left: 5vw;">Análisis</a>
@@ -521,7 +523,7 @@ def Foro(response):
                                 <a class="nav-link" href="#" style="color: aliceblue;font-size: 1.5rem;margin-left: 5vw;">Guías</a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link active" href="Foro" style="color: aliceblue;font-size: 1.5rem;margin-left: 5vw;">Foro</a>
+                                <a class="nav-link active" href="#" style="color: aliceblue;font-size: 1.5rem;margin-left: 5vw;">Foro</a>
                                 </li>
                             </ul>
                         </div>
@@ -530,14 +532,14 @@ def Foro(response):
                 </div>
             </div> 
         
-            <div class="col-8  row d-flex justify-content-center"style="background-color: #fef7f7;">
+            <div class="col-10  row d-flex justify-content-center"style="background-color: #fef7f7;">
                 <div class="row">
                     <div class="col-6 mt-2">
-                        <h4 class="text-right"style="background-color: #000000;border-radius: 20px;color: aliceblue;"><p class="titxex1" style="margin-left: 5%">videojuegos</p></h4>
+                        <h4 class="text-right"style="background-color: #000000;border-radius: 20px;color: aliceblue;"><p class="titxex1" style="margin-left: 5%">VIDEOJUEGOS</p></h4>
  
                     </div>
                     <div class="col-6 mt-2" >
-                        <h4 class="text-right" style="background-color: #000000;border-radius: 20px;color: aliceblue;"><p class="titxex1" style="margin-left: 5%">ultimos posts</p></h4>
+                        <h4 class="text-right" style="background-color: #000000;border-radius: 20px;color: aliceblue;"><p class="titxex1" style="margin-left: 5%">Últimos Posts</p></h4>
                     </div>
                 </div>
                 <div class="row">
@@ -600,7 +602,7 @@ def Foro(response):
  
                     </div>
                     <div class="col-6 mt-2" >
-                        <h4 class="text-right" style="background-color: #000000;border-radius: 20px;color: aliceblue;"><p class="titxex1" style="margin-left: 5%">ultimos posts</p></h4>
+                        <h4 class="text-right" style="background-color: #000000;border-radius: 20px;color: aliceblue;"><p class="titxex1" style="margin-left: 5%">Últimos Posts</p></h4>
                     </div>
                 </div>
                 <div class="row">
@@ -645,7 +647,7 @@ def Foro(response):
  
                     </div>
                     <div class="col-6 mt-2" >
-                        <h4 class="text-right" style="background-color: #000000;border-radius: 20px;color: aliceblue;"><p class="titxex1" style="margin-left: 5%">ultimos posts</p></h4>
+                        <h4 class="text-right" style="background-color: #000000;border-radius: 20px;color: aliceblue;"><p class="titxex1" style="margin-left: 5%">Últimos Posts</p></h4>
                     </div>
                 </div>
                 <div class="row">
@@ -702,7 +704,7 @@ def Foro(response):
                     </div>
                 </div>
             </div>
-            <div class="row mt-4">
+            <div class="row">
                 <div class="container-fluid" style="background-color: #191A19;">
                     <footer class="d-flex flex-wrap justify-content-between align-items-center">
                     <div class="col-md-4 d-flex align-items-center ms-5">
