@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path
 #Se debe importar la ruta de la vista
-from PaginaWeb.views import PaginaPrincipal,Noticias,Foro,GuiaGOW,GuiaFreeFire
+from PaginaWeb.views import PaginaPrincipal,Noticias,Foro,GuiaGOW,GuiaFreeFire,Analisis
 
 #Se debe agregar la ruta en la que se mostrará la vista
 urlpatterns = [
@@ -9,5 +9,6 @@ urlpatterns = [
     path('Noticias/',Noticias),
     path('Foro/',Foro),
     path('Guias/',GuiaGOW),
-    path('Analisis',GuiaFreeFire)
+    path('Analisis',GuiaFreeFire),
+    path('AnalisisPrin',Analisis)
 ]
